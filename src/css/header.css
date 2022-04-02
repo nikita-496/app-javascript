@@ -1,0 +1,9 @@
+.header{
+  background-color: burlywood;
+}
+.list{
+  display: flex;
+}
+.button{
+  font-size: 2rem;
+}

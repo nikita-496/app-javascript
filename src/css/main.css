@@ -7,3 +7,16 @@
   --white-color: #FFFFFF;
 }
 
+body{
+  background-color: #7dd184;
+}
+
+.header{
+  background-color: burlywood;
+}
+.list{
+  display: flex;
+}
+.button{
+  font-size: 2rem;
+}
