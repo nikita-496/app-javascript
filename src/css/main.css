@@ -1,22 +1,26 @@
 :root{
   --primary-text-color: #252B42;
-  --second-text-color: #737373;
+  --secondary-text-color: #737373;
   --danger-color: #E74040;
   --button-color: #FF685B;
   --black-color: #000000;
   --white-color: #FFFFFF;
+  --main--fonts: Montserrat-500, sans-serif;
+  --secondary-font: OpenSans-600, sans-serif;
 }
 
 body{
-  background-color: #7dd184;
+  background-color: var(--white-color);
+  margin: 0em;
 }
 
-.header{
-  background-color: burlywood;
-}
-.list{
-  display: flex;
-}
 .button{
-  font-size: 2rem;
+  font-size: 1.25rem;
+  background: transparent;
+  border: 1px solid var(--button-color);
+  border-radius: 7px;
 }
+
+
+@import url('./_fonts.css');
+@import url('./header.css')

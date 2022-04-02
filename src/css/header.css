@@ -1,9 +1,38 @@
 .header{
-  background-color: burlywood;
+  background-color: var(--white-color);
+  height: 4.9375em;
+  border-bottom: 1px solid var(--black-color);
 }
-.list{
+.header__container{
+  margin: 0em 4.375em;
+}
+.header__list{
   display: flex;
+  justify-content: space-between;
+  margin: 0em;
+  padding-top: 1.25em;
+  list-style: none;
 }
-.button{
-  font-size: 2rem;
+.list__item{
+  display: flex;
+  align-items: center;
+}
+.heder__logo-img{
+  align-self: center;
+}
+.header__link{
+  font-size: 0.9375rem;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  margin-right: 3.933em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.header__button{
+  font-size: 1.25rem;
+  font-family: var(--main--fonts);
+  font-weight: 500;
+  padding: 0.4em 3em;
+  color:  var(--button-color);
+  cursor: pointer;
 }
