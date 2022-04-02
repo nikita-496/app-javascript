@@ -1,0 +1,9 @@
+@font-face {
+  font-family: OpenSans-600;
+  src: url('../assets/fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: Montserrat-500;
+  src: url('../assets/fonts/Montserrat/Montserrat-Medium.ttf') format('truetype'); 
+}
