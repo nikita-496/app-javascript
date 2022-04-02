@@ -1,0 +1,46 @@
+{
+  "users" : [
+    {
+      "login": "Vasiliy",
+      "passwors": "1234586343",
+       "name": "Василий" 
+    },
+    {
+      "login": "Sasha",
+      "passwors": "12545434586343",
+      "name" :   "Саша"
+    },
+    {
+      "login": "Petr",
+      "passwors": "54657575",
+      "name" :  "Пётр"
+    } ,
+       
+    {
+      "login": "Darya",
+      "passwors": "33679871",
+      "name" :  "Даша"
+       
+    },
+    {
+      "login": "Masha",
+      "passwors": "5459965559",
+      "name" :  "Маша"
+    },
+    {
+      "login": "Kolyan",
+      "passwors": "kolya123",
+      "name" :  "Николай"
+    },
+    {
+      "login": "Serg",
+      "passwors": "serg525232",
+      "name" :  "Сергей"
+    },
+    {
+      "login": "Vano",
+      "passwors": "68445443",
+      "name" :  "Иван"
+    }
+  ]
+}
