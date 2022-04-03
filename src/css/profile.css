@@ -1,3 +1,11 @@
+.profile__title{
+  font-size: 3.625rem;
+  font-family: var(--main-font);
+  color: var(--primary-text-color);
+  line-height: 1.3794em;
+  width: 12.534em;
+  padding-top: 2.43103em;
+}
 .button__action-group-profile{
   font-size: 0.875rem;
   font-family: var(--main-font);

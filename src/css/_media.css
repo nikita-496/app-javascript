@@ -13,7 +13,7 @@
   .container{
     max-width: 900px;
   }
-   .index-title{
+   .index__title, .profile__title{
     font-size: 2.625rem;
   }
   .index__card{
@@ -28,7 +28,7 @@
   .container{
     max-width: 750px;
   }
-  .index-title{
+  .index__title, .profile__title{
     font-size: 2.25rem;
   }
   .cards{
@@ -40,6 +40,9 @@
 }
 
 @media (max-width: 640px) {
+  .profile__title{
+    padding-top: 1.8em;
+  }
   .header__button{
     padding: 0.375em 1.25em !important; 
   }
@@ -58,8 +61,9 @@
   .container{
     padding: 0 0.625em;
   }
-  .index-title{
+  .index__title, .profile__title{
     font-size: 1.75rem;
+    padding-top: 2.01785em;
   }
   .action{
     padding-bottom: 0em;;
@@ -69,14 +73,14 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 374px) {
   .header__link{
     font-size: 0.875rem !important;
   }
   .header__button{
     font-size: 1rem !important;
   }
-  .index-title{
+  .index__title, .profile__title{
     font-size: 1.5rem;
   }
   .button__action-group{
