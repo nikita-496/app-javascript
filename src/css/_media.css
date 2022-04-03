@@ -1,8 +1,10 @@
 @import url('./header.css');
 @import url('./block.css');
 @import url('./index.css');
+@import url('./modalWindow.css');
 @import url('./profile.css');
 @import url('./contacts.css');
+
 
 @media (max-width: 1440px) {
   .container{

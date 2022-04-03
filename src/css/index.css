@@ -12,8 +12,10 @@
   line-height: 1.571em;
   border-radius: 5px;
   padding: 1.071em 2.875em;
+  cursor: pointer;
 }
-.button__action-group_theme_login{
+.button__action-group_theme_login,
+.button__action-group_theme_continue{
   background-color: var(--button-color);
   color: var(--white-color);
   border-radius: 5px;
@@ -51,4 +53,9 @@
   line-height: 1.429em;
   color: var(--secondary-text-color);
   margin-top: 1.4286em;
+}
+.button__action-group_theme_continue{
+  width: 12.5em;
+  height: 3.5em;
+  padding: 0.8em 0.5em;
 }

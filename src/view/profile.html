@@ -5,21 +5,43 @@
   <meta http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/header.css">
   <title>Medicine</title>
 </head>
 <body>
-  <div data-snippet="../layout/default.html"></div>
+  <header class="header">
+    <div class="container header__container">
+    <nav class="header__nav">
+      <ul class="list header__list">
+        <li class="list__item">
+          <a href="../view/index.html">
+            <img class="logo-img heder__logo-img" src="../assets//logo.png" alt="Логотип сайта">
+          </a>
+        </li>
+        <li class="list__item">
+          <a class="link header__link" href="../view/contacts.html">Контакты</a>
+          <form class="form" action="./index.html">
+          <button class="button header__button button-login">Выйти</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+    </div>
+  </header>
   <main class="main">
     <div class="container">
       <h1 class="title profile__title">
         Привет, Сергей!
       </h1>
       <div class="action">
+        <form class="form" action="./index.html">
         <button class="button button__action-group-profile button__action-group-profile_theme_logout">Выйти из аккаунта</button>
-        <button class="button button__action-group-profile button__action-group-profile_theme_contacts">Перейти в контакты</button>
+        </form>
+        <form class="form" action="./contacts.html">
+          <button class="button button__action-group-profile button__action-group-profile_theme_contacts">Перейти в контакты</button>
+        </form>
       </div>
     </div>
   </main>
-  <script src="../js/includeHtmlSnippet.js"></script>
 </body>
 </html>
