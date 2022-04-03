@@ -2,6 +2,7 @@
 @import url('./block.css');
 @import url('./index.css');
 @import url('./profile.css');
+@import url('./contacts.css');
 
 @media (max-width: 1440px) {
   .container{
@@ -13,7 +14,7 @@
   .container{
     max-width: 900px;
   }
-   .index__title, .profile__title{
+   .index__title, .profile__title, .contacts__title{
     font-size: 2.625rem;
   }
   .index__card{
@@ -28,7 +29,7 @@
   .container{
     max-width: 750px;
   }
-  .index__title, .profile__title{
+  .index__title, .profile__title, .contacts__title{
     font-size: 2.25rem;
   }
   .cards{
@@ -61,7 +62,7 @@
   .container{
     padding: 0 0.625em;
   }
-  .index__title, .profile__title{
+  .index__title, .profile__title, .contacts__title{
     font-size: 1.75rem;
     padding-top: 2.01785em;
   }
@@ -80,7 +81,7 @@
   .header__button{
     font-size: 1rem !important;
   }
-  .index__title, .profile__title{
+  .index__title, .profile__title, .contacts__title{
     font-size: 1.5rem;
   }
   .button__action-group{

@@ -1,0 +1,8 @@
+.contacts__title{
+  font-size: 3.625rem;
+  font-family: var(--main-font);
+  color: var(--primary-text-color);
+  line-height: 1.3794em;
+  width: 12.534em;
+  padding-top: 3.18103em;
+}
