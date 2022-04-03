@@ -1,3 +1,7 @@
+
+@import url('./_fonts.css');
+@import url('./_media.css');
+
 :root{
   --primary-text-color: #252B42;
   --secondary-text-color: #737373;
@@ -5,22 +9,22 @@
   --button-color: #FF685B;
   --black-color: #000000;
   --white-color: #FFFFFF;
-  --main--fonts: Montserrat-500, sans-serif;
-  --secondary-font: OpenSans-600, sans-serif;
+  --main-font: Montserrat-700, sans-serif;
+  --secondary-font: Montserrat-400, sans-serif;
+  --medium-font: Montserrat-500, sans-serif;
+  --semiBold-font: OpenSans-600, sans-serif;
 }
 
 body{
   background-color: var(--white-color);
   margin: 0em;
 }
-
-.button{
-  font-size: 1.25rem;
-  background: transparent;
-  border: 1px solid var(--button-color);
-  border-radius: 7px;
+h1,h2,h3,h4, h5, p{
+  margin: 0em;
 }
-
-
-@import url('./_fonts.css');
-@import url('./header.css')
+ul{
+  padding: 0em;
+}
+li{
+  list-style: none;
+}

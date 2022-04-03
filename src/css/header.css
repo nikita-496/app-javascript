@@ -4,14 +4,13 @@
   border-bottom: 1px solid var(--black-color);
 }
 .header__container{
-  margin: 0em 4.375em;
+  max-width: 1298.27px;
 }
 .header__list{
   display: flex;
   justify-content: space-between;
   margin: 0em;
   padding-top: 1.25em;
-  list-style: none;
 }
 .list__item{
   display: flex;
@@ -22,7 +21,7 @@
 }
 .header__link{
   font-size: 0.9375rem;
-  font-family: var(--secondary-font);
+  font-family: var(--semiBold-font);
   font-weight: 600;
   margin-right: 3.933em;
   color: var(--secondary-text-color);
@@ -30,9 +29,10 @@
 }
 .header__button{
   font-size: 1.25rem;
-  font-family: var(--main--fonts);
+  font-family: var(--medium-font);
   font-weight: 500;
   padding: 0.4em 3em;
   color:  var(--button-color);
   cursor: pointer;
+  border-radius: 7px;
 }

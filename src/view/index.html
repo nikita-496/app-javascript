@@ -2,16 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/main.css">
   <title>Medicine</title>
 </head>
 <body>
   <div data-snippet="../layout/default.html"></div>
-  <h1>
-    Место для получения медицинской помощи
-  </h1>
+  <main class="main">
+    <div class="container">
+      <h1 class="title index-title">
+        Место для получения медицинской помощи
+      </h1>
+      <div class="action">
+        <button class="button button__action-group button__action-group_theme_login">Войти</button>
+        <button class="button button__action-group button__action-group_theme_contacts">Контакты</button>
+      </div>
+      <ul class="cards">
+        <li class="card__item">
+          <div class="card index__card index__card_first">
+            <div class="content-wrapper">
+              <img class="card__img" src="../assets/heart.png" alt="Кардиограмма сердца">
+            <h5 class="card__title">Онлайн-прием</h5>
+            <hr class="spacer"></hr>
+            <p class="card__text">Рыба текст</p>
+            </div>
+          </div>
+        </li>
+        <li class="card__item">
+          <div class="card index__card index__card_second">
+            <div class="content-wrapper">
+              <img class="card__img" src="../assets/stethoscope.png" alt="Стетоскоп">
+            <h5 class="card__title">Экстренный Случай</h5>
+            <hr class="spacer"></hr>
+            <p class="card__text">Рыба текст</p>
+            </div>
+          </div>
+        </li>
+        <li class="card__item">
+          <div class="card index__card">
+            <div class="content-wrapper">
+              <img class="card__img" src="../assets/form.png" alt="Бланк">
+            <h5 class="card__title">Лечение рака</h5>
+            <hr class="spacer"></hr>
+            <p class="card__text">Рыба текст</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
   <script src="../js/includeHtmlSnippet.js"></script>
 </body>
 </html>

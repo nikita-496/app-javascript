@@ -1,0 +1,26 @@
+.container {
+  margin: 0em;
+  margin: 0 auto;
+  max-width: 1045px;
+
+}
+.action{
+  margin-top: 2.1875em;
+  padding-bottom: 1.03125em;
+}
+.button{
+  font-size: 1.25rem;
+  background: transparent;
+  border: 1px solid var(--button-color);
+}
+.cards{
+  display: flex;
+  margin-top: 5em;
+  padding: 0em;
+}
+.card{
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.content-wrapper{
+  padding: 2.1875em 2.5em;
+}

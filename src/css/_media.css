@@ -1,0 +1,75 @@
+@import url('./header.css');
+@import url('./block.css');
+@import url('./index.css');
+
+@media (max-width: 1440px) {
+  .container{
+    padding: 0 0.9375em;
+  }
+}
+
+@media (max-width: 1099px) {
+  .container{
+    max-width: 900px;
+  }
+   .index-title{
+    font-size: 2.625rem;
+  }
+  .index__card{
+    width: 17.5em;
+  }
+}
+
+@media (max-width: 940px) {
+  .header__link{
+    margin-right: 0.625em !important;
+  }
+  .container{
+    max-width: 750px;
+  }
+  .index-title{
+    font-size: 2.25rem;
+  }
+  .cards{
+    flex-direction: column;
+  }
+  .index__card{
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__button{
+    padding: 0.375em 1.25em !important; 
+  }
+}
+
+@media (max-width: 480px) {
+  .container{
+    padding: 0 0.625em;
+  }
+  .index-title{
+    font-size: 1.75rem;
+  }
+  .action{
+    padding-bottom: 0em;;
+  }
+  .cards{
+    margin-top: 1.84375em;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__link{
+    font-size: 0.875rem !important;
+  }
+  .header__button{
+    font-size: 1rem !important;
+  }
+  .index-title{
+    font-size: 1.5rem;
+  }
+  .button__action-group{
+    padding: 0.75em 1.875em;
+  }
+}
