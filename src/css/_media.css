@@ -1,6 +1,7 @@
 @import url('./header.css');
 @import url('./block.css');
 @import url('./index.css');
+@import url('./profile.css');
 
 @media (max-width: 1440px) {
   .container{
@@ -43,6 +44,15 @@
     padding: 0.375em 1.25em !important; 
   }
 }
+
+@media (max-width: 508px) {
+  .button__action-group-profile_theme_contacts{
+    margin-top: 1em;
+  }
+  .button__action-group-profile_theme_logout{
+   width: 237.594px;
+  }
+ }
 
 @media (max-width: 480px) {
   .container{

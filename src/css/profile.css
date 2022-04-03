@@ -1,0 +1,13 @@
+.button__action-group-profile{
+  font-size: 0.875rem;
+  font-family: var(--main-font);
+  line-height: 1.571em;
+  border-radius: 5px;
+  padding: 1.071em 2.875em;
+}
+.button__action-group-profile_theme_logout{
+  background-color: var(--button-color);
+  color: var(--white-color);
+  border-radius: 5px;
+  margin-right: 0.714em;
+}
