@@ -71,7 +71,6 @@
         </li>
       </ul>
     </div>
-    
   </main>
   <div class="modal-window" id="modalWindow">
     <div class="modal-window__body">
@@ -79,8 +78,8 @@
         <a class="modal-window__form-close" id="close">x</a>
         <h2 class="modal-window__title">Авторизация</h2>
         <div class="form__item"> 
-          <label class="label" for="name">Имя</label>
-          <input type="text" class="input input__name" id="name">
+          <label class="label" for="login">Логни</label>
+          <input type="text" class="input input__name" id="login">
         </div>
         <div class="form__item">
           <label class="label"for="name">Пароль</label>
@@ -88,32 +87,19 @@
         </div>
       
         <div class="form__action">
-            <button class="button button__action-group button__action-group_theme_continue" id="continue" type="submit">Продолжить</button>
+            <button class="button button__action-group button__action-group_theme_continue" id="continue">Продолжить</button>
         </div>
-        </form>
+      </form>
     </div>
   </div>
+  <script type="text/javascript" src="../js/modules/EntirePoint.js"></script>
+  <script type="text/javascript" src="../js/modules/StorageManager.js"></script>
+  <script type="text/javascript" src="../js/submodules/json.js"></script>
+  <script type="text/javascript" src="../js/submodules/storage.js"></script>
+  <script type="text/javascript" src="../js/dom/modalWindow.js"></script>
+  <script type="text/javascript" src="../js/dom/authorization.js"></script>
   <script>
-    /*document.getElementById("form").addEventListener("click", function(event){
-      event.preventDefault()
-    });*/
-    const collection = document.getElementsByClassName("button-login")
-    console.log(collection)
-    const buttonLoginArray = Array.from(collection)
-    buttonLoginArray.forEach(element => {
-      console.log(element)
-      element.addEventListener("click", function(){
-      const modalWindow = document.getElementById("modalWindow")
-      modalWindow.classList.add("modal-window_open")
-    })
-    });
-    document.getElementById("close").addEventListener("click", function(){
-      const modalWindow = document.getElementById("modalWindow")
-      modalWindow.classList.remove("modal-window_open")
-    })
-    document.getElementById("continue").addEventListener("click", function(){
-
-    })
-    </script>
+    EntirePoint.init()
+  </script>
 </body>
 </html>

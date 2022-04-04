@@ -21,7 +21,7 @@
         <li class="list__item">
           <a class="link header__link" href="../view/contacts.html">Контакты</a>
           <form class="form" action="./index.html">
-          <button class="button header__button button-login">Выйти</button>
+            <button class="button header__button" id="logout">Выйти</button>
           </form>
         </li>
       </ul>
@@ -30,8 +30,8 @@
   </header>
   <main class="main">
     <div class="container">
-      <h1 class="title profile__title">
-        Привет, Сергей!
+      <h1 class="title profile__title" id="greeting">
+        
       </h1>
       <div class="action">
         <form class="form" action="./index.html">
@@ -43,5 +43,14 @@
       </div>
     </div>
   </main>
+  <script type="text/javascript" src="../js/modules/StorageManager.js"></script>
+  <script type="text/javascript" src="../js/submodules/storage.js"></script>
+  <script type="text/javascript" src="../js/dom/renderName.js"></script>
+  <script type="text/javascript" src="../js/dom/logoutButton.js"></script>
+  <script>
+    const userName = StorageManager.getUser()
+    const greetingMessage = `Привет, ${userName}!`
+    renderName(greetingMessage)
+  </script>
 </body>
 </html>
