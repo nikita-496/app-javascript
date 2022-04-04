@@ -23,6 +23,7 @@ StorageManager.storage = (function (data) {
     setUsers,
     setaAuthorizedUser,
     getName,
+    getUsers,
     removeAuthorizedUser,
   };
 })();
