@@ -61,7 +61,7 @@
   font-family: var(--medium-font);
 }
 .label__password{
-  margin-right: 1em;
+  margin-right: 1.2em;
 }
 .input{ 
   border: 1px solid var(--danger-color);
