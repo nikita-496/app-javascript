@@ -30,7 +30,6 @@
 .header__button{
   font-size: 1.25rem;
   font-family: var(--medium-font);
-  font-weight: 500;
   padding: 0.4em 3em;
   color:  var(--button-color);
   cursor: pointer;
