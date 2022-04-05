@@ -2,7 +2,7 @@ StorageManager.storage = (function (data) {
   function setUsers(data) {
     localStorage.setItem('users', JSON.stringify(data));
   }
-  function setaAuthorizedUser(login) {
+  function setAuthorizedUser(login) {
     const users = getUsers();
     const parsedUsers = JSON.parse(users).users;
     const validUser = parsedUsers.filter((user) => user.login === login);
@@ -21,7 +21,7 @@ StorageManager.storage = (function (data) {
   }
   return {
     setUsers,
-    setaAuthorizedUser,
+    setAuthorizedUser,
     getName,
     getUsers,
     removeAuthorizedUser,

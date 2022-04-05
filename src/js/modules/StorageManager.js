@@ -1,6 +1,6 @@
 const StorageManager = (function (authorizedUser) {
   function authorize(authorizedUser) {
-    StorageManager.storage.setaAuthorizedUser(authorizedUser);
+    StorageManager.storage.setAuthorizedUser(authorizedUser);
   }
   function getUser() {
     return StorageManager.storage.getName();

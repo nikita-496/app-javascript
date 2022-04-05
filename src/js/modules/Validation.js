@@ -3,7 +3,6 @@ const Validation = (function (inputLogin, inputPassword) {
     let isValidData = false;
     const users = StorageManager.getAllUsers();
     const parsedUsers = JSON.parse(users);
-    console.log(inputLogin, inputPassword);
     const filterResult = parsedUsers.users.filter(
       (user) => user.login === inputLogin && user.password === inputPassword
     );

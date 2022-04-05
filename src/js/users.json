@@ -1,149 +1,148 @@
 {
-  "users" : [
+  "users": [
     {
       "id": "1",
       "login": "Usonia",
       "password": "bQL8PS%kF0q4",
-       "name": "Василий" 
+      "name": "Василий"
     },
     {
       "id": "2",
       "login": "Jerici",
       "password": "M*BlrvaJpmL$44",
-      "name" :   "Саша"
+      "name": "Саша"
     },
     {
       "id": "3",
       "login": "Vonnabetter",
       "password": "ZnE%jL54jXp",
-      "name" :  "Пётр"
+      "name": "Пётр"
     },
     {
       "id": "4",
       "login": "Deuse",
       "password": "v$PCqfx3GqkR2^p",
-      "name" :  "Дарья"
-       
+      "name": "Дарья"
     },
     {
       "id": "5",
       "login": "Quilis",
       "password": "33j^@D%J$r#K",
-      "name" :  "Мария"
+      "name": "Мария"
     },
     {
       "id": "6",
       "login": "Rienonahina",
       "password": "j6Op#t&k9K",
-      "name" :  "Николай"
+      "name": "Николай"
     },
     {
       "id": "7",
       "login": "Gtonionnabi",
       "password": "mr4UY@*zpJ4%",
-      "name" :  "Сергей"
+      "name": "Сергей"
     },
     {
       "id": "8",
       "login": "Vano",
       "password": "QQ32qSPBy^9s",
-      "name" :  "Иван"
+      "name": "Иван"
     },
     {
       "id": "9",
       "login": "MakSolo",
       "password": "1eq^Pr&Uq&&t1",
-      "name" :  "Максим"
+      "name": "Максим"
     },
     {
       "id": "10",
       "login": "Beliallor",
       "password": "gH3*H4a9o6#",
-      "name" :  "Антон"
+      "name": "Антон"
     },
     {
       "id": "11",
       "login": "Shaman",
       "password": "$d2m*KS3KLQd",
-      "name" :  "Игорь"
+      "name": "Игорь"
     },
     {
       "id": "12",
-      "login": "Ganay",
+      "login": "Elma",
       "password": "cl2M6s661^X",
-      "name" :  "Светлана"
+      "name": "Светлана"
     },
     {
       "id": "13",
       "login": "Ganay",
       "password": "g1fj$G39wXB",
-      "name" :  "Анна"
+      "name": "Анна"
     },
     {
       "id": "14",
       "login": "Amal",
       "password": "p*@eHEL^aLx53",
-      "name" :  "Михаил"
+      "name": "Михаил"
     },
     {
       "id": "15",
       "login": "Sonell",
       "password": "7GaY6E7$BjC",
-      "name" :  "Семён"
+      "name": "Семён"
     },
     {
       "id": "16",
       "login": "Rzah",
       "password": "MnC%UHE%fuE88",
-      "name" :  "Матвей"
+      "name": "Матвей"
     },
     {
       "id": "17",
       "login": "Xaribe",
       "password": "Y*qdxm535FZgD*",
-      "name" :  "Ирина"
+      "name": "Ирина"
     },
     {
       "id": "18",
       "login": "Wyliette",
       "password": "!gT1*FEm21UbS",
-      "name" :  "Дмитрий"
+      "name": "Дмитрий"
     },
     {
       "id": "19",
       "login": "Xieandere",
       "password": "5RbB*&dCQvyt54",
-      "name" :  "Борис"
+      "name": "Борис"
     },
     {
       "id": "20",
       "login": "Xingoaaaaaa",
       "password": "Er24SomIw%$4r",
-      "name" :  "Виктор"
+      "name": "Виктор"
     },
     {
       "id": "21",
       "login": "Ynet",
       "password": "T5%yC6Haa*@",
-      "name" :  "Матвей"
+      "name": "Матвей"
     },
     {
       "id": "22",
       "login": "Hyllisad",
       "password": "1nMfkZ^1gyvd1",
-      "name" :  "Артем"
+      "name": "Артем"
     },
     {
       "id": "23",
       "login": "Uocaspen",
       "password": "42THjv#py7QK",
-      "name" :  "Татьяна"
+      "name": "Татьяна"
     },
     {
       "id": "24",
       "login": "Lastis",
       "password": "v0DT55TdEo#",
-      "name" :  "Яна"
+      "name": "Яна"
     }
   ]
 }
