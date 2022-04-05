@@ -18,6 +18,7 @@ Javascript, HTML, CSS, Vue, Vuex, Nuxt.js, Node.js, Nest.js
 - Основные страницы:
 
   а) Главная
+  ![index](https://user-images.githubusercontent.com/72722867/161797653-29b83293-3255-4af8-917f-fd949ea71485.gif)
 
   б) Личный кабинет
 
