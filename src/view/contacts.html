@@ -35,16 +35,20 @@
   </main>
   <div class="modal-window" id="modalWindow">
     <div class="modal-window__body">
-      <form class="modal-window__form" id="form" action="./profile.html">
+      <div class="snackbar" id="snackbar">
+        <span class="snackbar__message" id="snackbarMessage"></span>
+      </div>
+      <form class="modal-window__form" id="submit" action="./profile.html">
         <a class="modal-window__form-close" id="close">x</a>
         <h2 class="modal-window__title">Авторизация</h2>
         <div class="form__item"> 
-          <label class="label" for="login">Логни</label>
+          <label class="label label__login" for="login">Логни</label>
           <input type="text" class="input input__name" id="login">
         </div>
         <div class="form__item">
-          <label class="label"for="name">Пароль</label>
-          <input type="text" class="input input__password" id="password">
+          <label class="label label__password"for="name">Пароль</label>
+          <input type="password" class="input input__password" id="password">
+          <img class="password__type" id="passwordType" src="../assets/open.png" alt="Показать пароль">
         </div>
       
         <div class="form__action">
@@ -53,7 +57,10 @@
       </form>
     </div>
   </div>
+  <script type="text/javascript" src="../js/modules/EntirePoint.js"></script>
   <script type="text/javascript" src="../js/modules/StorageManager.js"></script>
+  <script type="text/javascript" src="../js/modules/Validation.js"></script>
+  <script type="text/javascript" src="../js/submodules/json.js"></script>
   <script type="text/javascript" src="../js/submodules/storage.js"></script>
   <script type="text/javascript" src="../js/dom/modalWindow.js"></script>
   <script type="text/javascript" src="../js/dom/authorization.js"></script>
