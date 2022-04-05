@@ -2,6 +2,7 @@ const continuebutton = document.getElementById('continue');
 const submit = document.getElementById('submit');
 
 const submitListener = (event) => event.preventDefault();
+
 let continuebuttonListenner = function () {
   const login = document.getElementById('login').value;
   const password = document.getElementById('password').value;
@@ -27,6 +28,7 @@ let continuebuttonListenner = function () {
       const isValidData = Validation.validateInputData(login, password);
       if (isValidData) {
         snackbar.style.display = 'none';
+
         StorageManager.authorize(login);
         submit.removeEventListener('click', submitListener);
       } else {

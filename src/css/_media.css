@@ -11,12 +11,11 @@
     padding: 0 0.9375em;
   }
 }
-
 @media (max-width: 1099px) {
   .container{
     max-width: 900px;
   }
-   .index__title, .profile__title, .contacts__title{
+   .index__title, .profile__title, .contacts__title, .message__title{
     font-size: 2.625rem;
   }
   .index__card{
@@ -31,8 +30,9 @@
   .container{
     max-width: 750px;
   }
-  .index__title, .profile__title, .contacts__title{
-    font-size: 2.25rem;
+  .index__title, .profile__title, .contacts__title, .message__title{
+    font-size: 1.8rem;
+    padding-top: 1.2em;
   }
   .cards{
     flex-direction: column;
@@ -40,6 +40,23 @@
   .index__card{
     width: 100%;
   }
+  .modal-window__title{
+    font-size: 1.7rem;
+  }
+
+.label{
+  font-size: 0.86rem;
+}
+ 
+.label__password{
+  margin-right: 1.3rem
+}
+}
+
+@media (max-width: 752px) {
+.message__title{
+  width: 15em;
+}
 }
 @media (max-width: 720px) {
   .modal-window__form{
@@ -47,6 +64,9 @@
   }
   .password__type{
   right: 2.5em;
+}
+.index__title, .profile__title, .contacts__title, .message__title{
+  font-size: 2.1rem;
 }
 }
 
@@ -56,6 +76,9 @@
   }
   .header__button{
     padding: 0.375em 1.25em !important; 
+  }
+  .index__title, .profile__title, .contacts__title, .message__title{
+    font-size: 1.9rem;
   }
 }
 
@@ -74,8 +97,8 @@
     height: 2em;
   }
   .password__type{
-  top: 14.3em;
-  right: 1.8em;
+  top: 11.9em;
+  right: 2.4em;
 }
 }
 
@@ -92,7 +115,7 @@
   .container{
     padding: 0 0.625em;
   }
-  .index__title, .profile__title, .contacts__title{
+  .index__title, .profile__title, .contacts__title, .message__title{
     font-size: 1.75rem;
     padding-top: 2.01785em;
   }
@@ -126,7 +149,7 @@
   .header__button{
     font-size: 1rem !important;
   }
-  .index__title, .profile__title, .contacts__title{
+  .index__title, .profile__title, .contacts__title, .message__title{
     font-size: 1.5rem;
   }
   .modal-window__form{

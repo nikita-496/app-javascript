@@ -14,7 +14,7 @@ function changeViewButton() {
 
 function changeButtonHeader() {
   logOutWraapper.action = './index.html';
-  logOutWraapper.innerHTML = '<button class="button header__button" id="logout">Выйти</button>';
+  logOutWraapper.innerHTML = '<button class="button header__button logout">Выйти</button>';
   if (authorizedUser) {
     loginButtonHeader.parentNode.replaceChild(logOutWraapper, loginButtonHeader);
   }
