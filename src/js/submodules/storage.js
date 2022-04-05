@@ -14,7 +14,11 @@ StorageManager.storage = (function (data) {
   function getName() {
     let userName;
     const authorizedUser = localStorage.getItem('authorizedUser');
-    return (userName = JSON.parse(authorizedUser)[0].name);
+    if (authorizedUser) {
+      return (userName = JSON.parse(authorizedUser)[0].name);
+    } else {
+      return null;
+    }
   }
   function removeAuthorizedUser() {
     localStorage.removeItem('authorizedUser');
