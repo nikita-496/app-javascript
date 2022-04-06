@@ -14,15 +14,15 @@ Javascript, HTML, CSS, Vue, Vuex, Nuxt.js, Node.js, Nest.js
 
 ✅ Адаптивная версия сайта
 
-✅ <code>[JSON](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/users.json")</code> с данными о пользователях
+✅ <code>[JSON](https://github.com/nikita-496/app-javascript/blob/master/src/js/users.json)</code> с данными о пользователях
 
 ✅ Основные страницы:
 
-  а) <code>[Главная](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/users.json")</code>
+  а) <code>[Главная](https://github.com/nikita-496/app-javascript/blob/master/src/js/users.json)</code>
 
-  б) <code>[Личный кабинет](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/view/profile.html")</code>
+  б) <code>[Личный кабинет](https://github.com/nikita-496/app-javascript/blob/master/src/view/profile.html)</code>
   
-  в) <code>[Контакты](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/view/contacts.html")</code>.
+  в) <code>[Контакты](https://github.com/nikita-496/app-javascript/blob/master/src/view/contacts.html)</code>.
 
 ✅ Процесс авторизации пользователей
 
@@ -54,15 +54,15 @@ Javascript, HTML, CSS, Vue, Vuex, Nuxt.js, Node.js, Nest.js
 
 В реализованном приложении можно выделить 3 основных момента, описывающих интерактивность и состояние приложения.
 
-- <code>[Валидация данных](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/Validation.js")</code>, введенных пользователем
-- <code>[Взаимодействие с localStorage](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/StorageManager.js")</code>
-- <code>[Рендеринг страницы и текущих элементов](адрес "https://github.com/nikita-496/app-javascript/tree/master/src/js/dom")</code>, в зависимости от того авторизован ли пользователь или нет
+- <code>[Валидация данных](https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/Validation.js)</code>, введенных пользователем
+- <code>[Взаимодействие с localStorage](https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/StorageManager.js)</code>
+- <code>[Рендеринг страницы и текущих элементов](https://github.com/nikita-496/app-javascript/tree/master/src/js/dom)</code>, в зависимости от того авторизован ли пользователь или нет
   
 Логика взаимодействия с localStorage и валидации, реализованы с применением модулей.
 
 При первом запуске приложения в localStorage записываются пользователи, которые берутся из данных JSON.
 
-<code>[EntirePoint](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/EntirePoint.js")</code>
+<code>[EntirePoint](https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/EntirePoint.js)</code>
   
 ```javascript
 const EntirePoint = (function () {
@@ -78,7 +78,7 @@ const EntirePoint = (function () {
 ```
 Модуль EntirePoint содержит подмодуль, который описывает логику запроса на получение данных с JSON.
 
-<code>[json](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/submodules/json.js")</code>
+<code>[json](https://github.com/nikita-496/app-javascript/blob/master/src/js/submodules/json.js)</code>
 
  ```javascript 
  EntirePoint.json = (function () {
@@ -100,7 +100,7 @@ const EntirePoint = (function () {
 
 Имеется отдельный модуль с внешними функцииями (которые подают сигнал на обработку данных из хранилища) доступными другим программам в приложении.
 
-<code>[StorageManager](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/StorageManager.js")</code>
+<code>[StorageManager](https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/StorageManager.js)</code>
    
  ```javascript 
  const StorageManager = (function (authorizedUser) {
@@ -128,7 +128,7 @@ const EntirePoint = (function () {
 
 Подмодуль модуля StorageManager непосредственно взаимодействует c API localeStorage (запись, удаление, получение данных из localeStorage) и скрывает от других частей программы, детали этого взаимодействия.
 
-<code>[storage](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/submodules/storage.js")</code>
+<code>[storage](https://github.com/nikita-496/app-javascript/blob/master/src/js/submodules/storage.js)</code>
    
 ```javascript 
 StorageManager.storage = (function (data) {
@@ -168,7 +168,7 @@ StorageManager.storage = (function (data) {
 
 Валидация данных реализована в модуле Validation, который проверяет существуют ли введенные данные в localeStorage, а также осуществляет валидацию пароля.
 
-<code>[Validation](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/Validation.js")</code>
+<code>[Validation](https://github.com/nikita-496/app-javascript/blob/master/src/js/modules/Validation.js)</code>
 
  ```javascript 
 const Validation = (function (inputLogin, inputPassword) {
@@ -201,7 +201,7 @@ const Validation = (function (inputLogin, inputPassword) {
 
 Остальная часть логики отведена на рендеринг страницы, путем манипуляции с DOM. В директории dom можно ознакомиться c фрагментами данной логики.
 
-- <code>[authorization.js](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/authorization.js")
+- <code>[authorization.js](https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/authorization.js)
 </code> - описана логика при нажатии на кнопку "Продолжить" для отправки формы на валидацию, которая определяет состояние приложения после нажатия на кнопку. Возможные состояния приложения:
 
   а) Введенные данные соответствуют данным из localStorage => запись авторизованного пользователя в localStoraage => переход в личный кабинет
@@ -210,15 +210,15 @@ const Validation = (function (inputLogin, inputPassword) {
   
   в) Пароль введен не корректно, поведение аналогично б).
   
-- <code>[buttonStatus.js](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/buttonStatus.js")</code> - описывается состояние кнопок в приложении (их текстового содержимого и назначения) в зависимости от того авторизован ли пользователь на сайте или нет.
+- <code>[buttonStatus.js](https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/buttonStatus.js)</code> - описывается состояние кнопок в приложении (их текстового содержимого и назначения) в зависимости от того авторизован ли пользователь на сайте или нет.
 
-- <code>[logoutButton.js](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/logoutButton.js")</code>:
+- <code>[logoutButton.js](https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/logoutButton.js)</code>:
 
   а) удаление записи из localStorage о текущем авторизованном пользователе
 
   б) переход из личного кабинета на главную страницу.
   
-- <code>[modalWindow.js](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/modalWindow.js")</code>: 
+- <code>[modalWindow.js](https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/modalWindow.js)</code>: 
 
   а) отрисовка всплывающего окна с формой 
 
@@ -226,13 +226,13 @@ const Validation = (function (inputLogin, inputPassword) {
   
   в) смена типа вводимого пароля (скрыт/открыт) и изображения.
   
-- <code>[renderProfile.js](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/renderProfile.js")</code> - отрисовка страницы личного кабинет:
+- <code>[renderProfile.js](https://github.com/nikita-496/app-javascript/blob/master/src/js/dom/renderProfile.js)</code> - отрисовка страницы личного кабинет:
  
   а) пользователь не авторизован => страница личного кабинета не доступна, приглашение пройти авторизацию
 
   б) пользователь авторизован => страница личного кабинет с приветствием пользователя по имени, соответствующим его данным.
   
-Отдельно стоит отметить файл <code>[messages.js](адрес "https://github.com/nikita-496/app-javascript/blob/master/src/js/messages.js")</code>, который хранит в себе информацию о сообщениях-подсказках при авторизации.
+Отдельно стоит отметить файл <code>[messages.js](https://github.com/nikita-496/app-javascript/blob/master/src/js/messages.js)</code>, который хранит в себе информацию о сообщениях-подсказках при авторизации.
 
 
 ## 🔌 Запуск
