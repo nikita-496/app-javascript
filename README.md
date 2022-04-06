@@ -18,7 +18,7 @@ Javascript, HTML, CSS, Vue, Vuex, Nuxt.js, Node.js, Nest.js
 
 ✅ Основные страницы:
 
-  а) <code>[Главная](https://github.com/nikita-496/app-javascript/blob/master/src/js/users.json)</code>
+  а) <code>[Главная](https://github.com/nikita-496/app-javascript/blob/master/src/view/index.html)</code>
 
   б) <code>[Личный кабинет](https://github.com/nikita-496/app-javascript/blob/master/src/view/profile.html)</code>
   
